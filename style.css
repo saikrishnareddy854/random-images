@@ -1,0 +1,71 @@
+body
+{
+    background-color:rgb(57, 63, 61);
+    background-image: url('222.webp');
+    
+
+}
+.container{
+    background-image: url('D:\\555.jpg');
+
+    width:800px;
+    height:340px;
+
+    margin-left: 400px;
+
+    margin-top:200px;
+
+    border-radius:20px;
+
+            border-style:groove;
+            border-width:10px;
+
+            background-color: rgba(44, 231, 94, 0.6);}
+#id1{width:300px;
+height:150px;
+margin-left:240px;
+border-radius:10px;
+margin-bottom:10px;
+
+}
+
+h1
+{
+    color:rgba(19, 209, 209, 0.9);
+
+    font-size:30px;
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:center;
+
+}
+.c1
+{
+    text-align: center;
+
+    color:white;
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.login-Btn{color:red;
+
+background-color:black;
+
+border-radius:10px;
+
+border-width:3px;
+
+border-style:groove;
+
+border-color:rgb(76, 11, 117);
+
+margin-left: 330px;
+
+margin-top:20px;
+
+width:90px;
+
+height:25px;
+
+
+}
