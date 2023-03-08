@@ -1,10 +1,10 @@
 // data
 const Quotes=[{
-          
-            image:`nature.jpg`},
+           quotes:`Take a much-needed break from your day to check out these 101 funny quotes we found in stand-up comedy, books, plays, celebrity Twitter and interviews as well as movies and TV shows, guaranteed to give you a quick chuckle.`,
+            author:'sai'},
             
-                {
-                 image:`222.webp`},
+                {quotes:`Take a much-needed t these 101 funny quotes we found in stand-up comedy, books, plays, celebrity Twitter and interviews as well as movies and TV shows, guaranteed to give you a quick chuckle.`,
+                 author:"saikrisnareddy"},
                     
                          ]
                  
@@ -12,17 +12,15 @@ const Quotes=[{
 const DisplayElem=document.getElementById('Display') ;
 const AuthorElem=document.getElementById('Author') ;
 const BtnElem=document.getElementById('generate') ;
-const id=document.getElementById('id1');
 
 //function to generate different quotes
 const RandomQuote=()=>{
     //logic to generat random quotes
     let index=Math.floor(Math.random()*(Quotes.length))
     //to dis[play the out put of the quote
-   
+    DisplayElem.innerHTML=Quotes[index].quotes
     // // to display the out put of the author
-   
-    id.src=Quotes[index].image
+    AuthorElem.innerHTML='~'+Quotes[index].author
 
 }
 // btn functionally
